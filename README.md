@@ -154,6 +154,11 @@ Don't forget to update your hosts file if you test on your local machine
 127.0.0.1       api.ddd.com
 ```
 
+Add another server to nginx.conf
+<p>
+Look into docker/nginx/conf/nginx.conf
+</p>
+
 
 ### Executing commands per application
 
@@ -218,7 +223,3 @@ License
 -------
 
 This software is published under the [MIT License](LICENSE)
-
-
-
-          - ./docker/php/www.conf:/usr/local/etc/php-fpm.d/www.conf:ro 
