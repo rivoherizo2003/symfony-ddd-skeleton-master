@@ -218,3 +218,7 @@ License
 -------
 
 This software is published under the [MIT License](LICENSE)
+
+
+
+          - ./docker/php/www.conf:/usr/local/etc/php-fpm.d/www.conf:ro 

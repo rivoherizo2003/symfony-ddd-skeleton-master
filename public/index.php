@@ -1,5 +1,7 @@
 <?php
 
+use function Symfony\Component\DependencyInjection\Loader\Configurator\env;
+
 require_once dirname(__DIR__).'/vendor/autoload_runtime.php';
 
 return static function (array $context) {
