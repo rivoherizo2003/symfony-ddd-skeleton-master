@@ -1,0 +1,10 @@
+[mysqld]
+innodb_force_recovery = 0
+max_allowed_packet=500M
+character-set-server = utf8
+collation-server = utf8_general_ci
+sql_mode = STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+
+# added to avoid err "Got a packet bigger than 'max_allowed_packet' bytes"
+net_buffer_length=1000000
+innodb_lock_wait_timeout = 3000
