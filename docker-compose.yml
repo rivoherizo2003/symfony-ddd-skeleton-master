@@ -15,11 +15,6 @@ services:
     depends_on:
       - s_ddd_php
       - s_ddd_mysql
-    environment:
-      - APP_CONTEXT=app
-      - APP_SECRET=1bf652c3b88e5fb7a4e941e051b0dd8a
-    links:
-      - s_ddd_php
     networks:
       - dev
 
