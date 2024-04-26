@@ -154,6 +154,12 @@ Don't forget to update your hosts file if you test on your local machine
 127.0.0.1       api.ddd.com
 ```
 
+Click on the following
+<p>
+    <a href="http://api.ddd.com:8085/products">api.ddd.com</a><br>
+    <a href="http://app.ddd.com:8084/home">app.ddd.com</a>
+</p>
+
 Add another server to nginx.conf
 <p>
 Look into docker/nginx/conf/nginx.conf

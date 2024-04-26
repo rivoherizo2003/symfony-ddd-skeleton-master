@@ -7,7 +7,8 @@ services:
       context: .
       dockerfile: docker/nginx/dockerfile
     ports:
-      - '8084:80'
+      - '8084:84'
+      - '8085:85'
     volumes:
       - ./public:/var/www/html/public:ro
       - ./docker/nginx/conf/nginx.conf:/etc/nginx/conf.d/default.conf:ro
